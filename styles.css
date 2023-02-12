@@ -12,6 +12,14 @@
    height: 120vh;
    
 }
+#top-page1{
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("./Pic1.jpg");
+    background-repeat: no-repeat, repeat-y;
+    background-size: cover;
+    background-attachment: fixed;
+   color: white;
+   height: 120vh;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -27,6 +35,10 @@ header *{
     display: flex;
     list-style:none;
     align-items: center;
+    
+}
+#top-content ul{
+    list-style: none;
 }
 #top-list li{
    
@@ -97,10 +109,11 @@ margin: 15% auto;
     display: flex;
     justify-content: space-between;
     height: 125vh;
+    
 }
 #articles img{
-    height: 100%
-    
+    height: 100%;
+    width: 100%; 
 }
 
 .card{
@@ -109,10 +122,11 @@ margin: 15% auto;
     align-items: center; 
     font-size: 1.1rem;
     text-align: center;
+    width: 30% ; 
 }
 .card *{
 margin-bottom: 20px;
-margin-left: 50px;
+margin-left: 5%;
 }
 div{
     display: block;
@@ -173,7 +187,33 @@ footer{
     color: white;
     height: 200px;
     padding-top: 5%;
+    
 }
 footer p{
     margin-bottom: 3%;
+}
+#block{
+    
+    background-color: white;
+    margin-bottom: -80%;
+    margin-top: 5%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    display: none;
+}
+#block ul{
+    list-style: none;
+    margin-left: -10% ;
+   
+}
+#block li{
+    margin-top: 10px;
+}
+
+#presentiel,#distance{
+    display: none;
+}
+#formation{
+  list-style: none; 
+  margin-left: -15%; 
 }
